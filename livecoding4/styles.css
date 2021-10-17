@@ -1,13 +1,16 @@
 table {
   border: 3px solid blue;
   width: 60%;
+  border-collapse: collapse; /* single-line border, cancels cell borders */
   border-spacing: 15px; /* space between table cells */
 }
 
-td, th {
-  border: 5px solid blue;
-  padding: 10px; /* apply 10 pixels of padding (space inside each cell of the table)
-                    to all sides: top, bottom, left and right */
+/* padding can be definied individually for each side of the box */
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
 }
 
 th {
