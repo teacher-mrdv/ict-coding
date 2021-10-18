@@ -1,0 +1,35 @@
+table {
+  border: 3px solid blue;
+  width: 60%;
+  border-collapse: collapse; /* single-line border, cancels cell borders */
+  border-spacing: 15px; /* space between table cells */
+}
+
+/* padding can be definied individually for each side of the box */
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+th {
+  font-family: serif;
+  font-style: bold;
+  text-align: center;
+  background-color: lightgreen;
+  border: 2px dotted black;
+}
+
+td {
+  border: 1px solid red;
+  background-color: yellow;
+  text-align: center;
+}
+
+body {
+  background: #E1F5A9;
+  font-family: sans-serif;
+}
+
+/* Note: Hex #aaa is equivalent to #aaaaaa */

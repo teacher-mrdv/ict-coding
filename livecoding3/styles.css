@@ -1,0 +1,32 @@
+table {
+  border: 3px solid blue;
+  width: 60%;
+  border-spacing: 15px; /* space between table cells */
+}
+
+td, th {
+  border: 5px solid blue;
+  padding: 10px; /* apply 10 pixels of padding (space inside each cell of the table)
+                    to all sides: top, bottom, left and right */
+}
+
+th {
+  font-family: serif;
+  font-style: bold;
+  text-align: center;
+  background-color: lightgreen;
+  border: 2px dotted black;
+}
+
+td {
+  border: 1px solid red;
+  background-color: yellow;
+  text-align: center;
+}
+
+body {
+  background: #E1F5A9;
+  font-family: sans-serif;
+}
+
+/* Note: Hex #aaa is equivalent to #aaaaaa */
