@@ -63,6 +63,10 @@ td {
   background-color: yellow;
 }
 
+img {
+  width: 80%;
+}
+
 /* now we define the specific styles for our navigation bar */
 /* first, we style the unordered list that we are using for our nav bar links */
 nav ul {
