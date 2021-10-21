@@ -15,16 +15,25 @@
         <ul class="nav">
           <!-- each list item (li) is one link of the nav bar -->
           <li><a href="index.html">Home</a></li>
-          <li><a href="page2.html">Page #2</a></li>
-          <li><a href="page3.html">Page #3</a></li>
-          <li><a class="active" href="page4.html">Page #4</a></li>
+          <li><a href="page2.html">Image</a></li>
+          <li><a href="page3.html">Video</a></li>
+          <li><a class="active" href="page4.html">Table</a></li>
       </nav>
     </header>
     <section>
-      <!-- optional -->
-      <p>This is another example of HTML tables. Website text can be placed here, within <i>article</i> and/or <i>p</i> tags</p>
+      <article>
+        <p>
+          This page demonstrates the use of the <i>img</i> HTML tag. For more information, check
+          <a href="https://www.w3schools.com/tags/tag_table.asp">this w3schools <i>table</i> tag reference page</a>,
+          <a href="https://www.w3schools.com/tags/tag_th.asp"> <i>th</i> tag reference</a>,
+          <a href="https://www.w3schools.com/tags/tag_tr.asp"> <i>tr</i> tag reference</a>,
+          <a href="https://www.w3schools.com/tags/tag_td.asp"> <i>td</i> tag reference</a>, and
+          <a href="https://www.w3schools.com/tags/tag_tbody.asp"> table formatting tags</a>.
+        </p>
+        <p>This is another example of HTML tables.</p>
+      </article>
       <center>
-        <table>
+        <table width="80%">
           <thead>
             <strong>CATS!!!</strong>
           </thead>
@@ -32,17 +41,26 @@
           <th>Dos</th>
           <tr>
             <td>
-              <img src="cat_hangover_red_cute_9.jpg" alt="Garfield's Face">
+              <img src="cat_hangover_red_cute_9.jpg" alt="Garfield's Face" align="left">
             </td>
-            <td><img src="cat_hangover_domestic_cat.jpg" alt="Another Cat's Face"></td>
+            <td>
+              <img src="cat_hangover_domestic_cat.jpg" alt="Another Cat's Face" align="right">
+            </td>
           </tr>
           <tr>
             <td colspan=2>
-              <center><img src="cat_tabby_cat_indoor.jpg" alt="cat_tabby_cat_indoor"></td></center>
+              <!-- if <img src="" alt="" align="center"> may not work on table cells, so we try <center> -->
+              <center>
+                <img src="cat_tabby_cat_indoor.jpg" alt="cat_tabby_cat_indoor">
+              </center>
+            </td>
           </tr>
           <tr>
             <td colspan=2>
-              <center><img src="cat_hangover_siamese_cat_6.jpg" alt="cat_hangover_siamese_cat"></td></center>
+              <center>
+                <img src="cat_hangover_siamese_cat_6.jpg" alt="cat_hangover_siamese_cat">
+              </center>
+            </td>
           </tr>
           </tr>
         </table>
@@ -51,11 +69,15 @@
       </center>
     </section>
     <footer>
-      This is the footer of your web page. Useful for copyright information and<br>
       <center>
-        E-mail: <a href="mailto:m_drienvargas@ofs.edu.sg?subject=website">
-          Marcos Drien</a>
+        This is the footer of your web page. Useful for copyright information and<br>
+        <p>
+          E-mail: <a href="mailto:m_drienvargas@ofs.edu.sg?subject=website"> Marcos Drien
+        </p>
+        <img src="troll.jpg" alt="trollface" height="100px">
+          </a>
       </center>
     </footer>
+
   </body>
 </html>

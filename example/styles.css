@@ -7,7 +7,6 @@
 
 /* First, we set the style for the body of the web page */
 body {
-  margin: 5px;
   padding: 0px;
   background: #ccc; /* this is a shorthand for #CCCCCC */
 }
@@ -21,11 +20,14 @@ h1 {
   color: orange;
   padding: 7px;
 }
-article, p {
-  padding: 15px; /* on all sides so it looks nicer with the rounded borders */
+
+article {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px 15px; /* on all sides so it looks nicer with the rounded borders */
   font-family: monospace;
   font-size: 16px;
-  color: blue;
+  color: black;
   background-color: white;
 }
 
@@ -63,7 +65,7 @@ td {
   background-color: yellow;
 }
 
-img {
+section img {
   width: 80%;
 }
 
@@ -84,9 +86,9 @@ nav li {
   font-size: 20px;
   line-height: 50px;
   height: 50px;
-  border-bottom: 1px solid #888;
+  border-bottom: 2px solid #888;
   display: inline-block;
-
+  margin: 10px;
 }
 
 /* now we style the link */
