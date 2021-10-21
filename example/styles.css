@@ -21,8 +21,7 @@ h1 {
   color: orange;
   padding: 7px;
 }
-
-p {
+article, p {
   padding: 15px; /* on all sides so it looks nicer with the rounded borders */
   font-family: monospace;
   font-size: 16px;
