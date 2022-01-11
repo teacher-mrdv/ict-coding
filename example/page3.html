@@ -27,13 +27,34 @@
         </p>
       </article>
       <center>
+        <p>Video Player Demo</p>
         <!-- https://www.w3schools.com/tags/tag_video.asp -->
         <video height="360" controls>
           <source src="bunny720p.m4v">
           Error: Your browser does not support the video tag.
         </video>
+
+        <!-- For fun only, not required by IGCSE -->
+        <p>
+          <p>Music Player Demo</p>
+          <audio id="myAudio">
+            <source src="bensound-moose.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </p>
+        <!-- JavaScript code -->
+        <script>
+          var x = document.getElementById("myAudio").controls = true;
+          function playAudio() {
+            x.play();
+          }
+          function pauseAudio() {
+            x.pause();
+          }
+        </script>
       </center>
     </section>
+
     <footer>
       <center>
         This is the footer of your web page. Useful for copyright information and<br>
