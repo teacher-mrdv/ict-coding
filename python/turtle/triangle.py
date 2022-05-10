@@ -12,10 +12,18 @@ bob.pendown()
 # bob.right(180-45)
 # bob.forward(100)
 
+# Right angle
 bob.forward(100)
 bob.left(180-45)
 bob.forward(141.4)
 bob.left(180-45)
 bob.forward(100)
+wait = input("Press [Return] / [Enter] to continue")
+
+# Equilateral
+bob.reset() # clear the screen and reset the turtle to starting position and facing left/east
+for sides in range(3):
+  bob.left(120)
+  bob.forward(175)
 
 turtle.done()
