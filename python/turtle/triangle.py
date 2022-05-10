@@ -1,8 +1,8 @@
-import turtle
-bob = turtle.Turtle() # my turtle's name is bob (skip it in exam)
-bob.shape("turtle")
-bob.color('green')
-bob.left(90) # we start with the turtle facing north/up
+import turtle         # allows us to use the turtle and turtle commands/functions
+bob = turtle.Turtle() # my turtle's name is bob (we skip the name and the dot in the exam)
+bob.shape("turtle")   # makes the turtle look like a turtle, useless otherwise
+bob.color("green")    # sets the turtle --and therefore drawing colour-- to green.
+bob.left(90)          # we start with the turtle facing north/up
 
 bob.pendown()
 
