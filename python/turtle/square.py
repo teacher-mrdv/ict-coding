@@ -29,7 +29,7 @@ bob.pendown()
 # bob.right(90)
 
 
-for times in range(4): # equivalent in exam: repeat 4
+for sides in range(4): # equivalent in exam: repeat 4
     bob.forward(50)
     bob.left(90)
     
