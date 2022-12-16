@@ -1,5 +1,6 @@
 import turtle
 bob = turtle.Turtle() # my turtle's name is bob (skip it in exam)
+bob.mode('logo') # face north by def.
 bob.shape("turtle")
 bob.color('green')
 # NOTE that the Python turtle starts facing left
