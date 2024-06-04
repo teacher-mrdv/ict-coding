@@ -1,0 +1,7 @@
+print('Hello world')
+name = input('what is your name ')
+print( 'How are you', end = ', ' )
+print( name )
+age = int(input('what is your age '))
+print( 'If now your age is ' + str(age) )
+print('In 5 years time you will be ' + str(age + 5) )
